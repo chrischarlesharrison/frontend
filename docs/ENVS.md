@@ -498,7 +498,7 @@ This feature is **enabled by default** with the `coinzilla` ads provider. To swi
 
 | Variable | Type| Description | Compulsoriness  | Default value | Example value | Version |
 | --- | --- | --- | --- | --- | --- | --- |
-| NEXT_PUBLIC_RE_CAPTCHA_APP_SITE_KEY | `string` | See [below](ENVS.md#google-recaptcha) | true | - | `<your-secret>` | v1.0.x+ |
+| NEXT_PUBLIC_RE_CAPTCHA_APP_SITE_KEY | `string` | See [below](ENVS.md#google-recaptcha) | true | - | `<your-site-key>` | v1.0.x+ |
 
 &nbsp;
 
@@ -668,7 +668,7 @@ This feature allows you to submit an application with a public address tag.
 | --- | --- | --- | --- | --- | --- | --- |
 | NEXT_PUBLIC_METADATA_SERVICE_API_HOST | `string` | Metadata Service API endpoint url | Required | - | `https://metadata.services.blockscout.com` | v1.30.0+ |
 | NEXT_PUBLIC_ADMIN_SERVICE_API_HOST | `string` | Admin Service API endpoint url | Required | - | `https://admin-rs.services.blockscout.com` | v1.1.0+ |
-| NEXT_PUBLIC_RE_CAPTCHA_APP_SITE_KEY | `string` | See [below](ENVS.md#google-recaptcha) | true | - | `<your-secret>` | v1.0.x+ |
+| NEXT_PUBLIC_RE_CAPTCHA_APP_SITE_KEY | `string` | See [below](ENVS.md#google-recaptcha) | true | - | `<your-site-key>` | v1.0.x+ |
 
 &nbsp;
 
@@ -933,5 +933,5 @@ To obtain the variable values, please refer to the [reCAPTCHA documentation](htt
 
 | Variable | Type| Description | Compulsoriness  | Default value | Example value | Version |
 | --- | --- | --- | --- | --- | --- | --- |
-| NEXT_PUBLIC_RE_CAPTCHA_V3_APP_SITE_KEY | `string` | **DEPRECATED** Google reCAPTCHA v3 site key | - | - | `<your-secret>` | v1.36.x |
+| NEXT_PUBLIC_RE_CAPTCHA_V3_APP_SITE_KEY | `string` | **DEPRECATED** Google reCAPTCHA v3 site key | - | - | `<your-site-key>` | v1.36.x |
 | NEXT_PUBLIC_RE_CAPTCHA_APP_SITE_KEY | `string` | Google reCAPTCHA v2 site key | - | - | `<your-site-key>` | v1.0.x+ |
